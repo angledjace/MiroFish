@@ -13,7 +13,7 @@ export default defineConfig({
   },
   server: {
     port: 3000,
-    open: true,
+    open: false,
     allowedHosts: ["mirofish-6xil.onrender.com"],
     proxy: {
       '/api': {
